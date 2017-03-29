@@ -1,3 +1,0 @@
-[submodule "arkanoid/glfw"]
-	path = arkanoid/glfw
-	url = https://github.com/glfw/glfw.git
