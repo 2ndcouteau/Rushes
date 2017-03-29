@@ -1,0 +1,38 @@
+M-x set-variable c-basic-offset 4
+M-x set-variable tab-width 4
+enter;
+up;
+C-c C-h;
+M-maj-};
+down;
+down;
+down;
+C-space;
+M-f;
+space;
+down;
+C-w;
+Del;
+tab;
+down;
+tab;
+down;
+space;
+C-y;
+C-u;
+down;
+tab;
+M-6 down;
+M-f;
+space;
+right;
+right;
+del;
+tab;
+down;
+C-e;
+left;
+down;
+C-k;
+enter;
+C-x C-s;

@@ -1,0 +1,9 @@
+
+// Commandes -- Ex 01-commandes
+
+memory write 0x100000d3f 48 81 c6 08
+breakpoint set -a 0x100000d4f -c '(count == 0 ? tab[0] = tab[2] : count == 1 ? tab[1] = tab[2] : tab[2]= tab[2]) && (8 == 9)'
+memory write 0x100000d63 c7 45 a0 00
+breakpoint set -a 0x100000ef8 -c '(tmp=(min[0]+min[1]+min[2])) && (8 == 9)'
+breakpoint set -a 0x100000f77 -c '(min[0] > min[1] ? min[0] > min[2] ? min[0] > 0 ? biggest = min[0] : biggest = 0: min[2] > 0 ? biggest = min[2] : biggest = 0 : min[1] > min[2] ? min[1] > 0 ? biggest = min[1] : biggest = 0 : min[2] >0 ? biggest = min[2] : biggest = 0) && (8 == 9)'
+continue

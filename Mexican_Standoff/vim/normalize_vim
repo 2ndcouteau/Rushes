@@ -1,0 +1,11 @@
+:5d3<Return>
+:2pu<Return>
+ggVG=
+:%s/\s\+$<Return>
+:6p<Return>
+/(<Return>
+i<Space><Esc>
+:17p<Return>
+/;<Return>
+i<Space><Esc>
+:Std<Return>
